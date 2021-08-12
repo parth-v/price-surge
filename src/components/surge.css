@@ -1,0 +1,37 @@
+.Data-form {
+    border: solid black;
+    border-radius: 2rem;
+    margin: 5vh auto; 
+    padding: 3vh;
+    width: 40vw;
+    height: 30vh;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+label{
+    font-size: 1.5rem;
+}
+
+input{
+    font-size: 1.7rem;
+}
+
+#buttons{
+    font-size: 1.5rem;
+    grid-column: span 2;
+}
+
+#result{
+    font-size: 1.5rem;
+    grid-column: span 2;
+    border: solid black;
+    border-radius: 2rem;
+    margin: 5vh auto; 
+    padding: 3vh;
+    width: 40vw;
+    text-align: center;
+}
