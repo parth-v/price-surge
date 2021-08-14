@@ -31,7 +31,8 @@ class Surge extends React.Component {
           return
         }
         // https://cipizchf30.execute-api.us-east-1.amazonaws.com/cors_enabled?regid=${regionId}&orderid=${orderId}
-        fetch(`https://cipizchf30.execute-api.us-east-1.amazonaws.com/stage2?regid=${regionId}&orderid=${orderId}`)
+        // fetch(`https://7z23g0hzt8.execute-api.us-east-1.amazonaws.com/dev2/mytest`)
+        fetch(`https://xyecjvz6y2.execute-api.us-east-1.amazonaws.com/dev2/mytest`)
         .then(res => res.json())
         .then(
             (result) => {
